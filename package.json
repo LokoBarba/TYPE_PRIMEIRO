@@ -1,16 +1,22 @@
 {
   "name": "primeiroprojetotypescript",
   "version": "1.0.0",
+  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "npm node_modules"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
   "main": "index.js",
   "scripts": {
     "start": "live-server"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs",
-  "description": "",
   "dependencies": {
-    "live-server": "^1.2.2"
-  }
+    "bootstrap": "^5.3.3",
+    "live-server": "^1.2.2",
+    "node-modules": "^1.0.1"
+  },
+  "description": ""
 }

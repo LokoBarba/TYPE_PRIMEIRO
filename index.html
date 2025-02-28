@@ -3,12 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.min.css">
     <title>Primeiro Projeto TYPEscript</title>
 </head>
 <body>
-    <h1>Nome: <span id="nome"> </span></h1>
-    <h2>Idade: <span id="idade"> </span></h2>
-    <h2>Ano: <span id="ano"> </span></h2>
+
+    <div>
+        <div>
+            <div>
+                <label for="">Nome: </label>
+                <input type="text" class="form-control" id="campoNome">
+
+                <label for="">Ano nascimento: </label>
+                <input type="text" class="form-control" id="campoAno">
+
+                <button class="btn btn-primary mt-3" id="calc">Calcular</button>
+
+                <h1>Nome: <span id="nome"> </span></h1>
+                <h2>Idade: <span id="idade"> </span></h2>
+                <h2>Ano: <span id="ano"> </span></h2>
+            </div>
+        </div>
+    </div>
+
+    
 
     <script src="./js/Pessoa.js"></script>
     <script src="./js/main.js"></script>
